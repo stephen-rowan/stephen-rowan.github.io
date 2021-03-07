@@ -12,6 +12,8 @@ look like:
   * that one
   * the other one
 
+![example image](Images/Here it is.jpg "An exemplary image")
+
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
