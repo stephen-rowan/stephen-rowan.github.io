@@ -1,6 +1,5 @@
 # stephen-rowan.github.io
 
-
 An h1 header
 ============
 
