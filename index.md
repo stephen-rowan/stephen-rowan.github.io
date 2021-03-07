@@ -12,7 +12,7 @@ look like:
   * that one
   * the other one
 
-![example image](Images/Here it is.jpg "An exemplary image" =100x20)
+<img src="Images/Here it is.jpg" alt="drawing" width="200"/>
 
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
