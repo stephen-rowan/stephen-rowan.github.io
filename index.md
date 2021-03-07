@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 # stephen-rowan.github.io
 
 <img src="Images/Here it is.jpg" alt="drawing" width="200"/> 
