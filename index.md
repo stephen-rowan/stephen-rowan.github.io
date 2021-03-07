@@ -1,9 +1,11 @@
-<img src="Images/Here it is.jpg" alt="drawing" width="200"/> # stephen-rowan.github.io
+# stephen-rowan.github.io
 
-An h1 header
+<img src="Images/Here it is.jpg" alt="drawing" width="200"/> 
+
+Biography
 ============
 
-Changes to this file from emacs on Lenovo laptop
+Stephen Rowan is a Philosophy Graduate 
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
