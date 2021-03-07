@@ -1,4 +1,4 @@
-# stephen-rowan.github.io
+<img src="Images/Here it is.jpg" alt="drawing" width="200"/> # stephen-rowan.github.io
 
 An h1 header
 ============
@@ -12,7 +12,6 @@ look like:
   * that one
   * the other one
 
-<img src="Images/Here it is.jpg" alt="drawing" width="200"/>
 
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
