@@ -1,4 +1,5 @@
-# stephen-rowan.github.io
+# Stephen Whitenstall
+## BA Humanities (with Philosophy) 2016
 
 <img src="Images/Here it is.jpg" alt="drawing" width="200"/> 
 
