@@ -6,7 +6,7 @@ Stephen started organising in academia in 1990 by participating in the review an
 
 ## Business
 
-Stephen transitioned the Planning Appeal Process at Westminster City Council to an automated, paperless system (1995-96), conducted software systems audits, managed a multi-platform test programme and a transfer of systems after a merger at BNP-Paribas (1997-2000), was trained in the Capability Maturity Model and designed documentation at IBM (2000-2001).
+Stephen transitioned the [Planning Appeal Process at Westminster City Council](https://www.westminster.gov.uk/planning-building-and-environmental-regulations/find-appeal-or-comment-planning-application/planning-appeals) to an automated, paperless system (1995-96), conducted software systems audits, managed a multi-platform test programme and a transfer of systems after a merger at BNP-Paribas (1997-2000), was trained in the Capability Maturity Model and designed documentation at IBM (2000-2001).
 
 ## Community
 
