@@ -2,7 +2,7 @@
 ## BA Humanities (with Philosophy) 2016
 
 ## Academia
-Stephen started organising in academia in 1990 by participating in the review and discussion of papers presented at the conference “Speculations: appraising psychoanalysis, philosophy and cultural studies”, held October 26th to 28th, 1990 at the [Freud Museum, London](https://www.freud.org.uk/). Later published as “[Speculations after Freud](https://www.amazon.co.uk/Speculations-After-Freud-Psychoanalysis-Philosophy/dp/0415076560)”, edited by [Sonu Shamdasani](https://en.wikipedia.org/wiki/Sonu_Shamdasani) and Michael Munchow (Stephen is credited in [the Preface](https://silo.pub/speculations-after-freud-psychoanalysis-philosophy-and-culture.html)). He later went on the gain a First-Class Degree in Humanities (with Philosophy) 2016 at the OU.
+Stephen started organising in academia in 1990 by participating in the review and discussion of papers presented at the conference “Speculations: appraising psychoanalysis, philosophy and cultural studies”, held October 26th to 28th, 1990 at the [Freud Museum, London](https://www.freud.org.uk/). Later published as “[Speculations after Freud](https://www.amazon.co.uk/Speculations-After-Freud-Psychoanalysis-Philosophy/dp/0415076560)”, edited by [Sonu Shamdasani](https://en.wikipedia.org/wiki/Sonu_Shamdasani) and Michael Munchow (Stephen is credited in [the Preface](https://silo.pub/speculations-after-freud-psychoanalysis-philosophy-and-culture.html)). He later went on the gain a First-Class Degree in Humanities (with Philosophy) 2016 at [The Open University](https://fass.open.ac.uk/philosophy).
 
 ## Business
 
