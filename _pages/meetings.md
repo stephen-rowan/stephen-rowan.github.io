@@ -34,6 +34,7 @@ title: Workgroups
   </ul>
 
   <h3>Agenda Items</h3>
+  {% raw %}
   {% for item in group.agendaItems %}
     <h4>Status: {{ item.status }}</h4>
     <div>
@@ -77,4 +78,5 @@ title: Workgroups
     <li><strong>Emotions:</strong> {{ group.tags.emotions }}</li>
   </ul>
 {% endfor %}
+{% endraw %}
 
