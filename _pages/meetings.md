@@ -3,11 +3,6 @@ title: "Meetings"
 permalink: /meetings/
 ---
 
----
-layout: default
-title: Workgroups
----
-
 <h1>Workgroups</h1>
 
 {% assign workgroups = site.data.workgroups %}
@@ -41,35 +36,7 @@ title: Workgroups
     <p>{{ item.narrative | newline_to_br }}</p>
     </div>
 
-    <h5>Action Items</h5>
-    <ul>
-      {% for action in item.actionItems %}
-        <li>
-          <strong>Status:</strong> {{ action.status }} <br>
-          <strong>Text:</strong> {{ action.text | newline_to_br }} <br>
-          <strong>Assignee:</strong> {{ action.assignee }} <br>
-          <strong>Due Date:</strong> {{ action.dueDate }}
-        </li>
-      {% endfor %}
-    </ul>
 
-    <h5>Decision Items</h5>
-    <ul>
-      {% for decision in item.decisionItems %}
-        <li>
-          <strong>Decision:</strong> {{ decision.decision | newline_to_br }} <br>
-          <strong>Rationale:</strong> {{ decision.rationale | newline_to_br }} <br>
-          <strong>Effect:</strong> {{ decision.effect }}
-        </li>
-      {% endfor %}
-    </ul>
-
-    <h5>Discussion Points</h5>
-    <ul>
-      {% for point in item.discussionPoints %}
-        <li>{{ point }}</li>
-      {% endfor %}
-    </ul>
   {% endfor %}
 
   <h3>Tags</h3>
