@@ -19,8 +19,8 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "QADAO"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+subtitle                 : "Decentralised Assurance of Quality" # site tagline that appears below site title in masthead
+name                     : "Quality Assurance DAO"
 description              : "Decentralised Assurance of Quality"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
