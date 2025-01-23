@@ -4,11 +4,14 @@ permalink: /meetings/
 ---
 <h1>Workgroup Information</h1>
 
-{% assign workgroups = site.data.workgroups["a3d9a6d1-7976-4a18-bc0c-62f3e638e329"] %}
+---
+
+{% assign workgroups = site.data.workgroups %}
 
 {% for group in workgroups %}
   <h2>{{ group.workgroup }}</h2>
   <p><strong>Workgroup ID:</strong> {{ group.workgroup_id }}</p>
+  
   <h3>Meeting Information</h3>
   <ul>
     <li><strong>Name:</strong> {{ group.meetingInfo.name }}</li>
@@ -28,11 +31,10 @@ permalink: /meetings/
 
   <h3>Agenda Items</h3>
   {% for item in group.agendaItems %}
-    <p><strong>Status:</strong> {{ item.status }}</p>
-    <p><strong>Narrative:</strong></p>
+    <h4>Status: {{ item.status }}</h4>
     <p>{{ item.narrative | newline_to_br }}</p>
-    
-    <h4>Action Items:</h4>
+
+    <h5>Action Items</h5>
     <ul>
       {% for action in item.actionItems %}
         <li>
@@ -43,8 +45,8 @@ permalink: /meetings/
         </li>
       {% endfor %}
     </ul>
-    
-    <h4>Decision Items:</h4>
+
+    <h5>Decision Items</h5>
     <ul>
       {% for decision in item.decisionItems %}
         <li>
@@ -54,15 +56,15 @@ permalink: /meetings/
         </li>
       {% endfor %}
     </ul>
-    
-    <h4>Discussion Points:</h4>
+
+    <h5>Discussion Points</h5>
     <ul>
       {% for point in item.discussionPoints %}
         <li>{{ point }}</li>
       {% endfor %}
     </ul>
   {% endfor %}
-  
+
   <h3>Tags</h3>
   <ul>
     <li><strong>Topics Covered:</strong> {{ group.tags.topicsCovered }}</li>
