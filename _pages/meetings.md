@@ -2,9 +2,9 @@
 title: "Meetings"
 permalink: /meetings/
 ---
-<h1>Workgroup Information</h1>
 
----
+<h1>Workgroups</h1>
+
 {% assign workgroups = site.data.workgroups %}
 
 {% for group in workgroups %}
@@ -28,13 +28,12 @@ permalink: /meetings/
     </li>
   </ul>
 
-<h3>Agenda Items</h3>
+  <h3>Agenda Items</h3>
   {% for item in group.agendaItems %}
-    
     <h4>Status: {{ item.status }}</h4>
     <p>{{ item.narrative | newline_to_br }}</p>
 
-  <h5>Action Items</h5>
+    <h5>Action Items</h5>
     <ul>
       {% for action in item.actionItems %}
         <li>
@@ -46,7 +45,7 @@ permalink: /meetings/
       {% endfor %}
     </ul>
 
-  <h5>Decision Items</h5>
+    <h5>Decision Items</h5>
     <ul>
       {% for decision in item.decisionItems %}
         <li>
@@ -57,7 +56,7 @@ permalink: /meetings/
       {% endfor %}
     </ul>
 
-  <h5>Discussion Points</h5>
+    <h5>Discussion Points</h5>
     <ul>
       {% for point in item.discussionPoints %}
         <li>{{ point }}</li>
