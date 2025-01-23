@@ -16,7 +16,7 @@ title: Workgroups
   <h2>{{ group.workgroup }}</h2>
   <p><strong>Workgroup ID:</strong> {{ group.workgroup_id }}</p>
   
-  <h3>Meeting Information</h3>
+<h3>Meeting Information</h3>
   <ul>
     <li><strong>Name:</strong> {{ group.meetingInfo.name }}</li>
     <li><strong>Date:</strong> {{ group.meetingInfo.date }}</li>
@@ -33,12 +33,12 @@ title: Workgroups
     </li>
   </ul>
 
-  <h3>Agenda Items</h3>
-  {% raw %}
+<h3>Agenda Items</h3>
+  
   {% for item in group.agendaItems %}
     <h4>Status: {{ item.status }}</h4>
     <div>
-      <p>{{ item.narrative | newline_to_br }}</p>
+    <p>{{ item.narrative | newline_to_br }}</p>
     </div>
 
     <h5>Action Items</h5>
@@ -78,5 +78,5 @@ title: Workgroups
     <li><strong>Emotions:</strong> {{ group.tags.emotions }}</li>
   </ul>
 {% endfor %}
-{% endraw %}
+
 
