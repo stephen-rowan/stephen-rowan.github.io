@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Meeting Summaries
+title: "Meeting Summaries"
+permalink: /meeting-summaries/
 ---
 
 <h1>Meeting Summaries</h1>
