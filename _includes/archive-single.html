@@ -23,7 +23,7 @@
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-        <p class="archive__item-date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <h3 class="archive__item-date">{{ post.date | date: "%B %d, %Y" }}</h3>
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
