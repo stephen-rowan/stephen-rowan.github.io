@@ -144,6 +144,9 @@ footer:
     - label: "QADAO on X(Twitter)"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/qa_dao"
+    - label: "QADAO YouTube"
+      url: "https://www.youtube.com/@qadao"
+      icon: "fab fa-youtube" # Font Awesome icon class
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
