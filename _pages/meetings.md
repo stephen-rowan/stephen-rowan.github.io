@@ -36,14 +36,16 @@ title: Workgroups
   <h3>Agenda Items</h3>
   {% for item in group.agendaItems %}
     <h4>Status: {{ item.status }}</h4>
-    <p>{{ item.narrative | strip_newlines | newline_to_br }}</p>
+    <div>
+      <p>{{ item.narrative | newline_to_br }}</p>
+    </div>
 
     <h5>Action Items</h5>
     <ul>
       {% for action in item.actionItems %}
         <li>
           <strong>Status:</strong> {{ action.status }} <br>
-          <strong>Text:</strong> {{ action.text | strip_newlines | newline_to_br }} <br>
+          <strong>Text:</strong> {{ action.text | newline_to_br }} <br>
           <strong>Assignee:</strong> {{ action.assignee }} <br>
           <strong>Due Date:</strong> {{ action.dueDate }}
         </li>
@@ -54,8 +56,8 @@ title: Workgroups
     <ul>
       {% for decision in item.decisionItems %}
         <li>
-          <strong>Decision:</strong> {{ decision.decision | strip_newlines | newline_to_br }} <br>
-          <strong>Rationale:</strong> {{ decision.rationale | strip_newlines | newline_to_br }} <br>
+          <strong>Decision:</strong> {{ decision.decision | newline_to_br }} <br>
+          <strong>Rationale:</strong> {{ decision.rationale | newline_to_br }} <br>
           <strong>Effect:</strong> {{ decision.effect }}
         </li>
       {% endfor %}
@@ -75,3 +77,4 @@ title: Workgroups
     <li><strong>Emotions:</strong> {{ group.tags.emotions }}</li>
   </ul>
 {% endfor %}
+
