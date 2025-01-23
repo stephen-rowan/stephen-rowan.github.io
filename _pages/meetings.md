@@ -2,7 +2,6 @@
 title: "Meetings"
 permalink: /meetings/
 ---
-
 <h1>Workgroup Information</h1>
 
 {% assign workgroups = site.data.workgroups["a3d9a6d1-7976-4a18-bc0c-62f3e638e329"] %}
