@@ -3,29 +3,70 @@ title: "Meetings"
 permalink: /meetings/
 ---
 
-<h1>Meeting Summaries</h1>
+<h1>Workgroup Information</h1>
 
-{% assign json_data = site.data.meeting-summaries-by-id %}
+{% assign workgroups = site.data.workgroups["a3d9a6d1-7976-4a18-bc0c-62f3e638e329"] %}
 
-{% for key, summaries in json_data %}
-  <h2>Meeting ID: {{ key }}</h2>
-  {% for summary in summaries %}
-    <h3>{{ summary.meetingInfo.name }} - {{ summary.meetingInfo.date }}</h3>
-    <p><strong>Host:</strong> {{ summary.meetingInfo.host }}</p>
-    <p><strong>Documenter:</strong> {{ summary.meetingInfo.documenter }}</p>
-    <p><strong>People Present:</strong> {{ summary.meetingInfo.peoplePresent }}</p>
-    <p><strong>Purpose:</strong> {{ summary.meetingInfo.purpose }}</p>
-    <h4>Working Documents:</h4>
+{% for group in workgroups %}
+  <h2>{{ group.workgroup }}</h2>
+  <p><strong>Workgroup ID:</strong> {{ group.workgroup_id }}</p>
+  <h3>Meeting Information</h3>
+  <ul>
+    <li><strong>Name:</strong> {{ group.meetingInfo.name }}</li>
+    <li><strong>Date:</strong> {{ group.meetingInfo.date }}</li>
+    <li><strong>Host:</strong> {{ group.meetingInfo.host }}</li>
+    <li><strong>Documenter:</strong> {{ group.meetingInfo.documenter }}</li>
+    <li><strong>People Present:</strong> {{ group.meetingInfo.peoplePresent }}</li>
+    <li><strong>Purpose:</strong> {{ group.meetingInfo.purpose }}</li>
+    <li><strong>Working Docs:</strong>
+      <ul>
+        {% for doc in group.meetingInfo.workingDocs %}
+          <li><a href="{{ doc.link }}">{{ doc.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Agenda Items</h3>
+  {% for item in group.agendaItems %}
+    <p><strong>Status:</strong> {{ item.status }}</p>
+    <p><strong>Narrative:</strong></p>
+    <p>{{ item.narrative | newline_to_br }}</p>
+    
+    <h4>Action Items:</h4>
     <ul>
-      {% for doc in summary.meetingInfo.workingDocs %}
-        <li><a href="{{ doc.link }}">{{ doc.title }}</a></li>
+      {% for action in item.actionItems %}
+        <li>
+          <strong>Status:</strong> {{ action.status }} <br>
+          <strong>Text:</strong> {{ action.text }} <br>
+          <strong>Assignee:</strong> {{ action.assignee }} <br>
+          <strong>Due Date:</strong> {{ action.dueDate }}
+        </li>
       {% endfor %}
     </ul>
-    <h4>Agenda Items:</h4>
+    
+    <h4>Decision Items:</h4>
     <ul>
-      {% for item in summary.agendaItems %}
-        <li>{{ item.narrative }}</li>
+      {% for decision in item.decisionItems %}
+        <li>
+          <strong>Decision:</strong> {{ decision.decision }} <br>
+          <strong>Rationale:</strong> {{ decision.rationale }} <br>
+          <strong>Effect:</strong> {{ decision.effect }}
+        </li>
+      {% endfor %}
+    </ul>
+    
+    <h4>Discussion Points:</h4>
+    <ul>
+      {% for point in item.discussionPoints %}
+        <li>{{ point }}</li>
       {% endfor %}
     </ul>
   {% endfor %}
+  
+  <h3>Tags</h3>
+  <ul>
+    <li><strong>Topics Covered:</strong> {{ group.tags.topicsCovered }}</li>
+    <li><strong>Emotions:</strong> {{ group.tags.emotions }}</li>
+  </ul>
 {% endfor %}
