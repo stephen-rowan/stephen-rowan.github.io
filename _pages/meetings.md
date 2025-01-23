@@ -5,7 +5,6 @@ permalink: /meetings/
 <h1>Workgroup Information</h1>
 
 ---
-
 {% assign workgroups = site.data.workgroups %}
 
 {% for group in workgroups %}
