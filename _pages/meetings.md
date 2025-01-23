@@ -28,17 +28,6 @@ permalink: /meetings/
     </li>
   </ul>
 
-<h3>Agenda Items</h3>
-  
-  {% for item in group.agendaItems %}
-    <h4>Status: {{ item.status }}</h4>
-    <div>
-    <p>{{ item.narrative | newline_to_br }}</p>
-    </div>
-
-
-  {% endfor %}
-
   <h3>Tags</h3>
   <ul>
     <li><strong>Topics Covered:</strong> {{ group.tags.topicsCovered }}</li>
