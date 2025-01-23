@@ -170,6 +170,9 @@ footer:
 include:
   - .htaccess
   - _pages
+  - about.md
+  - meetings.md
+
  
 exclude:
   - "*.sublime-project"
