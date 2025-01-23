@@ -33,7 +33,7 @@ permalink: /meetings/
     <h4>Status: {{ item.status }}</h4>
     <p>{{ item.narrative | newline_to_br }}</p>
 
-    <h5>Action Items</h5>
+  <h5>Action Items</h5>
     <ul>
       {% for action in item.actionItems %}
         <li>
@@ -45,7 +45,7 @@ permalink: /meetings/
       {% endfor %}
     </ul>
 
-    <h5>Decision Items</h5>
+  <h5>Decision Items</h5>
     <ul>
       {% for decision in item.decisionItems %}
         <li>
@@ -56,7 +56,7 @@ permalink: /meetings/
       {% endfor %}
     </ul>
 
-    <h5>Discussion Points</h5>
+  <h5>Discussion Points</h5>
     <ul>
       {% for point in item.discussionPoints %}
         <li>{{ point }}</li>
