@@ -10,6 +10,8 @@ tags:
 - LLM
 ---
 
+<iframe src="https://playground.memgraph.com/share/4fbd557f-b6d5-41e0-82e2-5ce513ce2c53/embed" style="width: 100%; height: 300px;"></iframe>
+
 There are some weaknesses and limitations of LLM (Large Language Models), including:
 
 - Bias: LLMs can learn and perpetuate biases that exist in the data they are trained on, which can have negative social and ethical implications.
