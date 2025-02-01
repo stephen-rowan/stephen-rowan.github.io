@@ -145,14 +145,12 @@ The content of the proposal on Ideascale will be released as a Word Document in 
 
 Also linked at the following repository location : [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Documents/01-Ideascale-Proposal-Finalise-Stage.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Documents/01-Ideascale-Proposal-Finalise-Stage.md)
 
-![](<../.gitbook/assets/8 (1).png>)
 
 ### **(2) Self-Assessment checklist - QA and Completion - Due: 28/04/2021:**
 
 This deliverable is specified by Project Catalyst.\
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/95](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/95)
 
-![](<../.gitbook/assets/9 (1).png>)
 
 **Self-Assessment checklist Summary:** How my proposal impacts the challenge metrics is articulated in this manner.
 
@@ -177,7 +175,6 @@ This deliverable is specified by Project Catalyst.\
 
 This deliverable is a QA of General Usability Issues of the Ideascale Platform (Data Only) to inform Output (5).
 
-![](<../.gitbook/assets/10 (1).png>)
 
 
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/17](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/issues/17)
@@ -187,8 +184,6 @@ This deliverable is a QA of General Usability Issues of the Ideascale Platform (
 
 This deliverable will be an informal document aimed at informing, celebrating, and inspiring the Catalyst open-source community.
 
-![](../.gitbook/assets/11.png)
-
 
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/01-Open-Source-Assessment-Report.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/01-Open-Source-Assessment-Report.md) )
 
@@ -196,16 +191,12 @@ This deliverable will be an informal document aimed at informing, celebrating, a
 
 This deliverable will be a formal document which will attempt a QA Assessment of the Fund 5 Process from a proposer's perspective.
 
-![](<../.gitbook/assets/12 (1).png>)
-
 
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/02-Project-Catalyst-Proposal%20Process.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/02-Project-Catalyst-Proposal%20Process.md)
 
 ### **(6) Governance: Due: TBA** 
 
 This deliverable will be a “leap of faith" interaction with voters to assess whether QA-DAO should be funded $5 given the delivery of 80% of outputs (1 -5)**.**
-
-![](../.gitbook/assets/13.png)
 
 
 [https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/03-Governance.md](https://github.com/Quality-Assurance-DAO/F5-Developer-ecosystem-Proposal/blob/main/Project-Catalyst/Reports/03-Governance.md)
@@ -218,8 +209,6 @@ This deliverable will be a “leap of faith" interaction with voters to assess w
 ## **Token Rewards**:
 
 A high-level process outlining a means to reward community contributions has been drafted for NFT-DAO and released under a Creative Commons License
-
-![](<../.gitbook/assets/14 (1).png>)
 
 [https://github.com/Quality-Assurance-DAO/DAO-Open-Source/blob/main/Documents/Tokens/01-Keep-It-Simple.md](https://github.com/Quality-Assurance-DAO/DAO-Open-Source/blob/main/Documents/Tokens/01-Keep-It-Simple.md)
 
