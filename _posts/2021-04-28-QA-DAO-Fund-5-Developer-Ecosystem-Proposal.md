@@ -14,7 +14,6 @@ resources:
   params:
     byline: "QA-DAO - Fund 5, Developer Ecosystem Proposal"
 ---
-# Fund 5, Developer Ecosystem Proposal
 > A deconstructed, dissected, and resurrected Catalyst Fund 5 Proposal.
 ---
 
